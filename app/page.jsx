@@ -24,7 +24,7 @@ export default function Home() {
               width={400}
               height={400}
               alt="My Photo"
-              className="border rounded-full bg-primary/80 dark:bg-transparent"
+              className="border rounded-full bg-primary/70 dark:bg-transparent"
             />
           </div>
           <div className="flex flex-col mx-auto justify-center w-full gap-4 mt-8 lg:mt-0">

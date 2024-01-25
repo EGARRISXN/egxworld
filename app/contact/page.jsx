@@ -23,10 +23,12 @@ export default function Contact() {
           </div>
           <div className="flex flex-row mx-auto w-full mt-8 lg:mt-0">
             <Image
-              src="/other/contactme.png"
+              src="/other/contactpage.png"
               width={400}
               height={600}
-              alt="me"
+              quality={100}
+              priority
+              alt="Contact Me"
             />
           </div>
         </div>
