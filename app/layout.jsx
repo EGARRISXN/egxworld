@@ -6,8 +6,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "egxblog",
-  description: "You have to start somewhere.",
+  title: "EG. | World",
+  description: "Take a chance once in a while.",
 };
 
 export default function RootLayout({ children }) {
