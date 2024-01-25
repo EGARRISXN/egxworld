@@ -2,7 +2,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { sendEmail } from "@/lib/email";
+import { sendEmail } from "@/lib/sendEmail";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -59,7 +59,7 @@ export default function ContactForm() {
             <FormItem>
               <FormLabel>Email Address</FormLabel>
               <FormControl>
-                <Input placeholder="example@aol.com" {...field} />
+                <Input placeholder="account@email.com" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -88,7 +88,7 @@ export default function ContactForm() {
         <div className="flex justify-center">
           <Button
             variant="outline"
-            className="px-4 lg:px-8"
+            className="px-8 bg-red-400"
             type="submit"
             disabled={formState.isSubmitting}
           >

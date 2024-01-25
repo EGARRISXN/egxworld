@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="w-full flex justify-between border-b shadow-xl">
       <div className="flex font-bold text-sm sm:text-base">
-        <div className="border-r flex items-center bg-primary text-secondary p-4">
+        <div className="border-r flex items-center bg-black dark:bg-white text-secondary p-4">
           <Link href="/">
             <span className="hover:text-yellow-400 hover:underline hover:underline-offset-4">
               eg
