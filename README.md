@@ -1,5 +1,7 @@
 # My Personal Portfolio
 
+This is my personal portfolio...
+
 ## Overview
 
 This is my personal portfolio website built using Next.js 14, Tailwind CSS, Shadcn-UI, and JavaScript. It showcases my skills, projects, and provides a glimpse into my professional journey.
@@ -69,6 +71,19 @@ To deploy this portfolio to Vercel:
 - For more advanced deployment options or to deploy on a different platform, refer to the documentation of your chosen hosting service.
 
 Feel free to reach out if you encounter any issues or need further assistance!
+
+## Customization
+
+Feel free to customize the blog to suit your preferences.
+Explore the codebase and make changes accordingly.
+
+## Contributing
+
+If you'd like to contribute, please follow these guidelines:
+Fork the repository
+Create a new branch
+Make your changes
+Submit a pull request
 
 ## License
 
