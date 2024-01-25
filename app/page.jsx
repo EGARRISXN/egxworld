@@ -48,7 +48,7 @@ export default function Home() {
               </Button>
               <Button variant="outline" className="px-8 bg-red-400">
                 <Link
-                  href="https://www.egxblog.vercel.app"
+                  href="https://egxblog.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
