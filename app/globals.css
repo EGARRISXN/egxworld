@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*! Shadcn-UI */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -25,7 +26,6 @@
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.5rem;
   }
-
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -49,17 +49,38 @@
   }
 }
 
+/*! App */
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-mono;
   }
+}
+html {
+  @apply scroll-smooth antialiased;
+}
+main {
+  @apply mx-auto my-12 w-full flex flex-col;
+}
+nav {
+  @apply mx-auto my-12;
+}
+p {
+  @apply mt-2;
+}
+h1 {
+  @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
+}
+h2 {
+  @apply scroll-m-20 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
+}
+h3 {
+  @apply scroll-m-20 text-2xl font-semibold tracking-tight;
 }
 
 /*! Scrollbar */
-
 /* Firefox */
 * {
   scrollbar-width: thin;

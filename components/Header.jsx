@@ -3,7 +3,7 @@ import { ThemeToggle } from "@/components/Theme-Toggle";
 
 export default function Header() {
   return (
-    <header className="w-full flex justify-between border-b shadow-xl font-mono">
+    <header className="w-full flex justify-between border-b shadow-xl">
       <div className="flex font-bold text-sm sm:text-base">
         <div className="border-r flex items-center bg-primary text-secondary p-4">
           <Link href="/">

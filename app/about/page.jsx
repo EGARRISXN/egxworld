@@ -1,41 +1,18 @@
 import Image from "next/image";
-import {
-  SiAdobeaftereffects,
-  SiAdobelightroom,
-  SiAdobepremierepro,
-  SiBootstrap,
-  SiExpress,
-  SiFramer,
-  SiGit,
-  SiGithub,
-  SiHeroku,
-  SiHtml5,
-  SiJavascript,
-  SiMarkdown,
-  SiMongodb,
-  SiMysql,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiPostman,
-  SiReact,
-  SiTailwindcss,
-  SiTypescript,
-  SiVercel,
-  SiVisualstudiocode,
-} from "react-icons/si";
 import GitHubCalendar from "react-github-calendar";
+import TechIcons from "@/lib/techIcons";
 
 export default function About() {
   return (
-    <main className="w-full flex flex-col">
-      <section className="dark:bg-green-400 flex mt-16 py-4">
+    <main>
+      <section className="dark:bg-green-400 py-4">
         <Image src="/ABOUT.svg" width={2000} height={200} alt="about" />
       </section>
-      <section className="flex my-12 lg:my-16 px-8">
-        <article className="max-w-5xl prose lg:prose-lg mx-auto text-foreground font-mono">
+      <section className="max-w-5xl flex mx-auto mt-12 px-8 border-b border-green-300 pb-16">
+        <article className="max-w-4xl prose lg:prose-lg text-foreground">
           <h3 className="text-foreground">
             Hey there! I'm{" "}
-            <span className=" text-green-400 font-bold">Ethan G.</span>, a
+            <span className="text-green-300 font-bold">Ethan G.</span>, a
             Full-Stack Web Developer & Designer based in beautiful Florida, US.
           </h3>
           <p>
@@ -51,54 +28,30 @@ export default function About() {
             passion for design. I specialize in bringing ideas to life using
             various JavaScript Libraries and Frameworks.
           </p>
-
-          <p>Let's collaborate and build something amazing together! 😃🚀</p>
+          <p>Let's collaborate and build something amazing together! 🚀</p>
         </article>
       </section>
-      <hr />
-      <section className="flex flex-col my-12 lg:my-16 px-8">
-        <div className="flex font-mono prose lg:prose-lg mx-auto text-center mb-8">
-          <h3 className="text-foreground font-bold">
-            Some <span className="text-green-400">technologies</span> &{" "}
-            <span className="text-green-400">tools</span> I've played with:
+      <section className="max-w-5xl flex flex-col mx-auto mt-12 px-8 lg:border-b border-green-300 lg:pb-16">
+        <div className="prose lg:prose-lg mb-8 text-center mx-auto">
+          <h3 className="text-foreground">
+            Some <span className="text-green-300 font-bold">technologies</span>{" "}
+            & <span className="text-green-300 font-bold">tools</span> I've
+            played with:
           </h3>
         </div>
-        <div className="flex flex-wrap gap-8 mx-auto justify-center max-w-5xl text-xl lg:text-3xl">
-          <SiGit />
-          <SiNodedotjs />
-          <SiJavascript />
-          <SiTypescript />
-          <SiExpress />
-          <SiMongodb />
-          <SiMysql />
-          <SiReact />
-          <SiNextdotjs />
-          <SiTailwindcss />
-          <SiBootstrap />
-          <SiMarkdown />
-          <SiHtml5 />
-          <SiGithub />
-          <SiVercel />
-          <SiHeroku />
-          <SiPostman />
-          <SiFramer />
-          <SiVisualstudiocode />
-          <SiAdobelightroom />
-          <SiAdobepremierepro />
-          <SiAdobeaftereffects />
+        <div className="max-w-4xl flex flex-wrap mx-auto justify-center gap-8 text-xl lg:text-3xl">
+          <TechIcons />
         </div>
       </section>
-      <hr />
-      <section className="flex-col my-12 lg:my-16 px-8 hidden lg:flex">
-        <div className="flex font-mono prose lg:prose-lg mx-auto text-center mb-8">
-          <h3 className="text-foreground font-bold">
-            Some <span className="text-green-400">contributions</span> &{" "}
-            <span className="text-green-400">time</span> spent on Github:
+      <section className="max-w-5xl hidden lg:flex flex-col mx-auto mt-12 px-8">
+        <div className="prose lg:prose-lg mb-8 text-center mx-auto">
+          <h3 className="text-foreground">
+            Some <span className="text-green-300 font-bold">contributions</span>{" "}
+            & <span className="text-green-300 font-bold">time</span> spent on
+            Github:
           </h3>
         </div>
-        <div className="flex flex-wrap justify-center mx-auto max-w-5xl">
-          <GitHubCalendar username="EGARRISXN" />
-        </div>
+        <GitHubCalendar username="EGARRISXN" />
       </section>
     </main>
   );

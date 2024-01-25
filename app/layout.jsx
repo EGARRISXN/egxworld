@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${GeistSans.variable} ${GeistMono.variable} scroll-smooth antialiased`}
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
     >
-      <body className="x">
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
         >
           <Header />
-          <main className="x">{children}</main>
+          <main>{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
