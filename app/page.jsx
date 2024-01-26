@@ -20,11 +20,11 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 px-8 gap-0 lg:gap-16">
           <div className="flex mx-auto justify-center w-full">
             <Image
-              src="/other/myphoto.png"
+              src="/other/homepagehead.png"
               width={400}
               height={400}
               alt="My Photo"
-              className="border rounded-full bg-primary/70 dark:bg-transparent"
+              className="x"
             />
           </div>
           <div className="flex flex-col mx-auto justify-center w-full gap-4 mt-8 lg:mt-0">
