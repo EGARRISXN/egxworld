@@ -49,7 +49,7 @@ export default function Home() {
               </Button>
               <Button variant="outline" className="px-8 bg-red-400">
                 <Link
-                  href="https://www.egxblog.net"
+                  href="https://www.egxblog.net/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
