@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  metadataBase: new URL("https://egxworld.vercel.app/"),
+  metadataBase: new URL("https://www.egxworld.net/"),
   title: "EG. | World",
   description: "The Official Website for Ethan G.",
   referrer: "origin-when-cross-origin",
@@ -31,8 +31,8 @@ export const metadata = {
     locale: "en_US",
     title: "EG. | World",
     description: "The Official Website for Ethan G",
-    url: "https://egxworld.vercel.app/",
-    siteName: "egxworld.vercel.app",
+    url: "https://www.egxworld.net/",
+    siteName: "egxworld.net",
   },
   twitter: {
     cardType: "summary_large_image",
