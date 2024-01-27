@@ -20,11 +20,12 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 px-8 gap-0 lg:gap-16">
           <div className="flex mx-auto justify-center w-full">
             <Image
-              src="/other/homepagehead.png"
+              src="/other/homepageme.png"
               width={400}
               height={400}
+              quality={100}
+              priority
               alt="My Photo"
-              className="x"
             />
           </div>
           <div className="flex flex-col mx-auto justify-center w-full gap-4 mt-8 lg:mt-0">
@@ -48,7 +49,7 @@ export default function Home() {
               </Button>
               <Button variant="outline" className="px-8 bg-red-400">
                 <Link
-                  href="https://egxblog.vercel.app"
+                  href="https://www.egxblog.net"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
