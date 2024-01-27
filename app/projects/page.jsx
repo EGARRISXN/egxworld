@@ -29,7 +29,7 @@ export default function Projects() {
           <br />
           Download my resume{" "}
           <Link
-            href="/EthanGarrisonResume.pdf"
+            href="/EthanGarrisonResume2024.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline uppercase"
