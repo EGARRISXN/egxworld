@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://egxworld.vercel.app/sitemap.xml",
+    sitemap: "https://egxworld.net/sitemap.xml",
   };
 }
