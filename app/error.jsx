@@ -8,7 +8,7 @@ export default function Error({ error, reset }) {
   }, [error]);
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center text-center justify-center">
       <p className="text-lg sm:text-2xl font-semibold pt-2">
         Oh no! Something went wrong.
       </p>

@@ -23,21 +23,6 @@ export default function Projects() {
       </section>
 
       <section className="max-w-5xl flex flex-col mx-auto mt-12 px-8 gap-12">
-        <div className="text-center text-sm mx-auto prose lg:prose-lg text-foreground">
-          Currently <span className="font-extrabold uppercase">open</span> for
-          work!
-          <br />
-          Download my resume{" "}
-          <Link
-            href="/EthanGarrisonResume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline uppercase"
-          >
-            here
-          </Link>
-          !
-        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto gap-8">
           {ProjectData.map((project, index) => (
             <Card
