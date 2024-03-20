@@ -1,10 +1,8 @@
-# My Personal Portfolio
-
-This is my personal portfolio...
+# My Website.
 
 ## Overview
 
-This is my personal portfolio website built using Next.js 14, Tailwind CSS, Shadcn-UI, and JavaScript. It showcases my skills, projects, and provides a glimpse into my professional journey.
+This is my personal website built using Next.js 14, Tailwind CSS, Shadcn-UI, and JavaScript. It showcases my skills, projects, and provides a glimpse into my professional journey.
 
 ## Features
 
