@@ -72,16 +72,8 @@ Feel free to reach out if you encounter any issues or need further assistance!
 
 ## Customization
 
-Feel free to customize the blog to suit your preferences.
+Feel free to customize the site to suit your preferences.
 Explore the codebase and make changes accordingly.
-
-## Contributing
-
-If you'd like to contribute, please follow these guidelines:
-Fork the repository
-Create a new branch
-Make your changes
-Submit a pull request
 
 ## License
 
