@@ -2,7 +2,7 @@
 
 My personal website / portfolio / whatever you'd like to call it.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxworld)
 
 ## Overview
 
