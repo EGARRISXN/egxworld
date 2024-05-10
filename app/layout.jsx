@@ -12,7 +12,7 @@ export const metadata = {
   description: "The website/portfolio for Ethan G.",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "ethan_g, eg, EG, Ethan G., ethan-g, egarrisxn, egxworld, ethan garrison, ethan-garrison, ethan_garrison, ethan-garrison, portfolio, projects, about, nextjs, shadcn-ui, tailwindcss, javascript, reactjs",
+    "ethan_g, eg, EG, Ethan G., ethan-g, egarrisxn, egxworld, ethan garrison, ethan-garrison, ethan_garrison, ethan-garrison, portfolio, projects, about, nextjs, next, next14, shadcn-ui, shadcn/ui, radixui, tailwindcss, javascript, react",
   ],
   creator: { name: "Ethan Garrison", url: "https://github.com/EGARRISXN" },
   robots: {
