@@ -76,6 +76,13 @@ export default function Projects() {
           Here are a couple more projects I&apos;ve worked on.
           <br />
           <a
+            href="https://github.com/egarrisxn/blog-next-rsc-mdx"
+            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
+          >
+            MDX/RSC Blog
+          </a>
+          <br />
+          <a
             href="https://github.com/egarrisxn/weather-dashboard"
             className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
           >
