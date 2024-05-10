@@ -58,11 +58,12 @@
     @apply bg-background text-foreground font-mono;
   }
 }
+
 html {
   @apply scroll-smooth antialiased;
 }
 main {
-  @apply mx-auto my-12 w-full flex flex-col;
+  @apply mx-auto my-12 w-full min-h-screen flex flex-col;
 }
 nav {
   @apply mx-auto my-12;

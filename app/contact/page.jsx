@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import ContactForm from "@/components/Contact-Form";
 
 export default function Contact() {
@@ -36,7 +35,7 @@ export default function Contact() {
         <div className="text-center mx-auto prose lg:prose-lg text-foreground text-sm border-2 border-red-400 shadow-xl dark:shadow-red-300/20 rounded-lg p-4">
           If you'd like to support my work,
           <br />
-          <Link
+          <a
             href="https://www.buymeacoffee.com/egarrisxn"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +46,7 @@ export default function Contact() {
               here
             </span>
             !
-          </Link>
+          </a>
         </div>
       </section>
     </main>

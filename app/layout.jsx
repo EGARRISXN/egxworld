@@ -9,10 +9,10 @@ import Footer from "@/components/Footer";
 export const metadata = {
   metadataBase: new URL("https://www.egxworld.net/"),
   title: "EG. | World",
-  description: "The Official Website for Ethan G.",
+  description: "The website/portfolio for Ethan G.",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "ethan_g, eg, EG., Ethan G., ethan-g, egarrisxn, egxworld, ethan garrison, ethan-garrison, ethan_garrison, ethan-garrison, portfolio, projects, about, nextjs, shadcn-ui, tailwindcss, javascript, reactjs",
+    "ethan_g, eg, EG, Ethan G., ethan-g, egarrisxn, egxworld, ethan garrison, ethan-garrison, ethan_garrison, ethan-garrison, portfolio, projects, about, nextjs, shadcn-ui, tailwindcss, javascript, reactjs",
   ],
   creator: { name: "Ethan Garrison", url: "https://github.com/EGARRISXN" },
   robots: {
@@ -30,16 +30,16 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     title: "EG. | World",
-    description: "The Official Website for Ethan G",
+    description: "The website/portfolio for Ethan G.",
     url: "https://www.egxworld.net/",
     siteName: "egxworld.net",
   },
   twitter: {
     cardType: "summary_large_image",
-    handle: "@e____g_______",
-    site: "@e____g_______",
+    handle: "@eg_xo_",
+    site: "@eg_xo_",
     title: "EG. | World",
-    description: "The Official Website for Ethan G",
+    description: "The website/portfolio for Ethan G.",
   },
 };
 

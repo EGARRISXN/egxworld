@@ -47,7 +47,10 @@ export default function Home() {
                   Learn More
                 </Link>
               </Button>
-              <Button variant="outline" className="px-8 bg-red-400">
+              <Button
+                variant="outline"
+                className="px-8 bg-red-400 hover:bg-red-500"
+              >
                 <Link
                   href="https://www.egxblog.net/"
                   target="_blank"

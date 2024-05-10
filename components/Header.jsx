@@ -27,14 +27,14 @@ export default function Header() {
           >
             contact
           </Link>
-          <Link
+          <a
             href="https://www.egxblog.net/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 hover:underline hover:underline-offset-4"
           >
             blog
-          </Link>
+          </a>
         </div>
       </div>
       <div className="flex items-center px-2">

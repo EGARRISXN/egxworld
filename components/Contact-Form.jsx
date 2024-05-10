@@ -88,7 +88,7 @@ export default function ContactForm() {
         <div className="flex justify-center">
           <Button
             variant="outline"
-            className="px-8 bg-red-400"
+            className="px-8 bg-red-400 hover:bg-red-500"
             type="submit"
             disabled={formState.isSubmitting}
           >

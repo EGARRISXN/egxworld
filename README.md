@@ -1,28 +1,26 @@
-# My Personal Portfolio
+# egxworld
 
-This is my personal portfolio...
+My personal website / portfolio / whatever you'd like to call it.
 
 ## Overview
 
-This is my personal portfolio website built using Next.js 14, Tailwind CSS, Shadcn-UI, and JavaScript. It showcases my skills, projects, and provides a glimpse into my professional journey.
+This application showcases my skills, projects, provides a glimpse into my professional journey, and so much more.
 
-## Features
+## Technologies
 
+- **JavaScript:** The primary programming language used for the project.
 - **Next.js 14:** Leveraging the latest features and improvements in the Next.js framework.
 - **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 - **Shadcn-UI:** [Brief description of Shadcn-UI and how it enhances the project]
-- **JavaScript:** The primary programming language used for the project.
 
-## Getting Started
+## Installation
 
-### Prerequisites
+_Note: installation & deployment instructions use the npm package manager, but you may use the package manager of your choice._
 
-- Node.js and npm installed on your machine.
+If you'd like to use this project as a starting point for inspiration, follow these steps!
 
-### Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
+1. Clone the repository: `git clone git@github.com:egarrisxn/egxworld.git`
+2. Navigate to the project directory: `cd egxworld`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
@@ -31,38 +29,43 @@ This is my personal portfolio website built using Next.js 14, Tailwind CSS, Shad
 To deploy this portfolio to Vercel:
 
 1. **Create a Vercel Account:**
+
    - If you don't have a Vercel account, sign up at [Vercel](https://vercel.com/signup).
 
 2. **Install Vercel CLI:**
+
    - Install the Vercel CLI globally using npm:
-     ```bash
-     npm install -g vercel
+     ```
+     bash npm install -g vercel
      ```
 
 3. **Login to Vercel:**
+
    - Open a terminal and run:
-     ```bash
-     vercel login
+     ```
+     bash vercel login
      ```
      Follow the on-screen instructions to log in.
 
 4. **Navigate to Your Project Directory:**
-   - Open a terminal and navigate to your portfolio project directory:
-     ```bash
-     cd path/to/your-portfolio
+
+   - Open a terminal and navigate to your project directory:
+     ```
+     bash cd path/to/your-app
      ```
 
 5. **Deploy to Vercel:**
+
    - Run the following command to deploy your project:
-     ```bash
-     vercel
+     ```
+     bash vercel
      ```
      Follow the prompts to configure your deployment settings.
 
-6. **Visit Your Live Portfolio:**
+6. **Visit Your Live Project:**
    - Once the deployment is complete, Vercel will provide you with a live URL for your portfolio. Visit this URL to see your portfolio online.
 
-## Additional Notes:
+## Additional Notes
 
 - Make sure your project's `package.json` includes the necessary scripts for starting the development server and building the project. Vercel will automatically detect and use these scripts during deployment.
 
@@ -70,21 +73,10 @@ To deploy this portfolio to Vercel:
 
 - For more advanced deployment options or to deploy on a different platform, refer to the documentation of your chosen hosting service.
 
-Feel free to reach out if you encounter any issues or need further assistance!
-
-## Customization
-
-Feel free to customize the blog to suit your preferences.
-Explore the codebase and make changes accordingly.
-
-## Contributing
-
-If you'd like to contribute, please follow these guidelines:
-Fork the repository
-Create a new branch
-Make your changes
-Submit a pull request
-
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Questions
+
+Feel free to reach out to me via [GitHub](https://github.com/EGARRISXN), or email at egarrisxn@gmail.com.
