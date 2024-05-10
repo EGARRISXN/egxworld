@@ -2,6 +2,8 @@
 
 My personal website / portfolio / whatever you'd like to call it.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 
 This application showcases my skills, projects, provides a glimpse into my professional journey, and so much more.
@@ -10,8 +12,8 @@ This application showcases my skills, projects, provides a glimpse into my profe
 
 - **JavaScript:** The primary programming language used for the project.
 - **Next.js 14:** Leveraging the latest features and improvements in the Next.js framework.
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-- **Shadcn-UI:** [Brief description of Shadcn-UI and how it enhances the project]
+- **TailwindCSS:** A utility-first CSS framework for rapid UI development.
+- **Shadcn/UI:** A beautiful component library built ontop of Radix UI.
 
 ## Installation
 
