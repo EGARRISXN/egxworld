@@ -72,60 +72,7 @@ export default function Projects() {
             </Card>
           ))}
         </div>
-        <div className="mx-auto prose lg:prose-lg text-foreground text-sm border-2 border-blue-400 dark:shadow-blue-300/20 shadow-xl w-fit rounded-xl p-4 text-center">
-          Here are a couple more projects I&apos;ve worked on.
-          <br />
-          <a
-            href="https://github.com/egarrisxn/blog-next-rsc-mdx"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            MDX/RSC Blog
-          </a>
-          <br />
-          <a
-            href="https://github.com/egarrisxn/weather-dashboard"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            Weather Dashboard
-          </a>
-          <br />
-          <a
-            href="https://github.com/egarrisxn/daily-scheduler"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            Daily Scheduler
-          </a>
-          <br />
-          <a
-            href="https://github.com/egarrisxn/pwa-text-editor"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            PWA Text Editor
-          </a>
-          <br />
-          <a
-            href="https://github.com/egarrisxn/orm-ecommerce-backend"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            ORM E-commerce Backend
-          </a>
-          <br />
-          <a
-            href="https://github.com/egarrisxn/sql-employee-tracker"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            SQL Employee Tracker
-          </a>
-          <br />
-          Head over to my{" "}
-          <a
-            href="https://github.com/egarrisxn"
-            className="text-blue-400 hover:text-yellow-400 hover:underline hover:underline-offset-4 no-underline"
-          >
-            Github
-          </a>{" "}
-          to check out the rest!
-        </div>
+      
       </section>
     </main>
   );
