@@ -6,7 +6,9 @@ My personal website / portfolio / whatever you'd like to call it.
 
 ## Overview
 
-This application showcases my skills, projects, provides a glimpse into my professional journey, and so much more.
+This site showcases my skills, projects, provides a glimpse into my professional journey, and so much more.
+
+![egxworld](https://github.com/egarrisxn/egxworld/assets/126130230/c5c1d86f-0f19-4fbc-8af7-d0c363f51ce3)
 
 ## Technologies
 
