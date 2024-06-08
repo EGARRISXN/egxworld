@@ -67,7 +67,7 @@ export default function ContactForm() {
               <FormControl>
                 <div>
                   <textarea
-                    className='w-full rounded border bg-background'
+                    className='w-full rounded border bg-background p-2'
                     rows={4}
                     placeholder="I'm listening..."
                     {...field}
@@ -82,7 +82,7 @@ export default function ContactForm() {
           <Button
             variant='outline'
             size='sm'
-            className='bg-red-400 px-8 hover:bg-red-500 2xl:px-12'
+            className='w-60 bg-red-400 hover:bg-red-500'
             type='submit'
             disabled={formState.isSubmitting}
           >

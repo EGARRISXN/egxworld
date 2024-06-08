@@ -10,13 +10,13 @@ export default function Projects() {
         <Image src='/banners/PROJECTS.svg' width={2560} height={200} alt='projects' />
       </header>
 
-      <section className='mx-auto mt-12 flex max-w-5xl flex-col gap-12 px-8 xl:max-w-6xl 2xl:mt-24 2xl:max-w-7xl'>
-        <h1 className='text-center font-black'>&#183;Current&#183;</h1>
+      <section className='mx-auto mt-4 flex max-w-5xl flex-col gap-12 px-4 sm:mt-12 sm:px-8 xl:max-w-6xl 2xl:mt-24 2xl:max-w-7xl'>
+        <h3 className='text-center font-black 2xl:text-6xl'>&#183;Current&#183;</h3>
         <div className='mx-auto grid grid-cols-1 gap-8 lg:grid-cols-2'>
           {CurrentProjects.map((project, index) => (
             <Card
               key={index}
-              className='rounded-xl border-2 border-blue-400 shadow-xl dark:shadow-blue-300/20'
+              className='sm:rounded-xl sm:border-2 sm:border-blue-400 sm:shadow-xl sm:dark:shadow-blue-300/20'
             >
               <CardHeader>
                 <Image
@@ -27,7 +27,7 @@ export default function Projects() {
                   className='rounded border-2'
                 />
               </CardHeader>
-              <CardTitle className='text-xl font-bold text-blue-400 no-underline hover:text-yellow-400 hover:underline hover:underline-offset-4'>
+              <CardTitle className='text-center text-xl font-bold text-blue-400 no-underline hover:text-yellow-400 hover:underline hover:underline-offset-4'>
                 <a href={project.websiteLink} target='_blank' rel='noopener noreferrer'>
                   {project.title}
                 </a>
@@ -52,13 +52,13 @@ export default function Projects() {
         </div>
       </section>
       <br />
-      <section className='mmx-auto mt-12 flex max-w-5xl flex-col gap-12 px-8 xl:max-w-6xl 2xl:max-w-7xl'>
-        <h1 className='text-center font-black'>&#183;Depricated&#183;</h1>
+      <section className='mx-auto mt-4 flex max-w-5xl flex-col gap-12 px-4 sm:mt-12 sm:px-8 xl:max-w-6xl 2xl:max-w-7xl'>
+        <h3 className='text-center font-black 2xl:text-6xl'>&#183;Depricated&#183;</h3>
         <div className='mx-auto grid grid-cols-1 gap-8 lg:grid-cols-2'>
           {DepricatedProjects.map((project, index) => (
             <Card
               key={index}
-              className='rounded-xl border-2 border-blue-400 shadow-xl dark:shadow-blue-300/20'
+              className='sm:rounded-xl sm:border-2 sm:border-blue-400 sm:shadow-xl sm:dark:shadow-blue-300/20'
             >
               <CardHeader>
                 <Image
