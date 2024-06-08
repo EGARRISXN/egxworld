@@ -1,52 +1,45 @@
-"use client";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
-import { sendEmail } from "@/lib/sendEmail";
-import { Button } from "@/components/ui/button";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+'use client'
+import {useForm} from 'react-hook-form'
+import {zodResolver} from '@hookform/resolvers/zod'
+import {z} from 'zod'
+import {sendEmail} from '@/lib/sendEmail'
+import {Button} from '@/components/ui/button'
+import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from '@/components/ui/form'
+import {Input} from '@/components/ui/input'
 
 const formSchema = z.object({
   name: z.string().min(3).max(100),
   email: z.string().email(),
   message: z.string().min(10).max(500),
-});
+})
 
 export default function ContactForm() {
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      name: "",
-      email: "",
-      message: "",
+      name: '',
+      email: '',
+      message: '',
     },
-  });
+  })
 
-  const { handleSubmit, formState } = form;
+  const {handleSubmit, formState} = form
 
   function onSubmit(data) {
-    sendEmail(data);
+    sendEmail(data)
   }
 
   return (
     <Form {...form}>
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
+      <form onSubmit={handleSubmit(onSubmit)} className='space-y-8 2xl:text-xl'>
         <FormField
           control={form.control}
-          name="name"
-          render={({ field }) => (
+          name='name'
+          render={({field}) => (
             <FormItem>
               <FormLabel>Full Name</FormLabel>
               <FormControl>
-                <Input placeholder="Jane Doe" {...field} />
+                <Input placeholder='Jane Doe' {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -54,12 +47,12 @@ export default function ContactForm() {
         />
         <FormField
           control={form.control}
-          name="email"
-          render={({ field }) => (
+          name='email'
+          render={({field}) => (
             <FormItem>
               <FormLabel>Email Address</FormLabel>
               <FormControl>
-                <Input placeholder="account@email.com" {...field} />
+                <Input placeholder='account@email.com' {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -67,14 +60,14 @@ export default function ContactForm() {
         />
         <FormField
           control={form.control}
-          name="message"
-          render={({ field }) => (
+          name='message'
+          render={({field}) => (
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
                 <div>
                   <textarea
-                    className="w-full bg-background border rounded"
+                    className='w-full rounded border bg-background'
                     rows={4}
                     placeholder="I'm listening..."
                     {...field}
@@ -85,11 +78,12 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-        <div className="flex justify-center">
+        <div className='flex justify-center'>
           <Button
-            variant="outline"
-            className="px-8 bg-red-400 hover:bg-red-500"
-            type="submit"
+            variant='outline'
+            size='sm'
+            className='bg-red-400 px-8 hover:bg-red-500 2xl:px-12'
+            type='submit'
             disabled={formState.isSubmitting}
           >
             Submit
@@ -97,5 +91,5 @@ export default function ContactForm() {
         </div>
       </form>
     </Form>
-  );
+  )
 }

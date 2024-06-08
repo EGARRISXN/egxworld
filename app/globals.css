@@ -48,26 +48,16 @@
     --ring: 224.3 76.3% 48%;
   }
 }
-
-/*! App */
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-mono;
+    @apply bg-background font-mono text-foreground;
   }
 }
 
-html {
-  @apply scroll-smooth antialiased;
-}
-main {
-  @apply mx-auto my-12 w-full min-h-screen flex flex-col;
-}
-nav {
-  @apply mx-auto my-12;
-}
+/*! Font */
 p {
   @apply mt-2;
 }
