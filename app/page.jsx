@@ -24,6 +24,10 @@ export default function Home() {
             />
           </figure>
           <div className='mx-auto mt-8 flex flex-col justify-center gap-4 lg:mt-0 2xl:gap-8'>
+            <div className='flex items-center gap-2'>
+              <span className='size-2 animate-pulse rounded-full bg-emerald-500 ring ring-emerald-500/20'></span>
+              <span className='text-gray-500 dark:text-gray-400'>Available for work!</span>
+            </div>
             <h2 className='text-2xl lg:text-3xl 2xl:text-6xl'>
               My Name: <span className='font-bold text-yellow-300'>Ethan G.</span>
               <br />
@@ -32,7 +36,7 @@ export default function Home() {
                 <Typewrite />
               </span>
             </h2>
-            <div className='flex gap-4 pt-6 text-xl 2xl:text-3xl'>
+            <div className='flex gap-3 pt-6 text-lg md:text-xl lg:gap-4 lg:text-2xl 2xl:text-3xl'>
               <SocialIcons />
             </div>
             <div className='flex flex-col gap-4 pt-6 sm:flex-row'>
@@ -46,9 +50,9 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant='outline' size='sm' className='bg-red-400 px-8 hover:bg-red-500'>
-                <Link href='https://www.egxblog.net/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.egxblog.net/' target='_blank' rel='noopener noreferrer'>
                   New Blog!
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
