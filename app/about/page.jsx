@@ -4,45 +4,49 @@ import TechIcons from '@/lib/techIcons'
 
 export default function About() {
   return (
-    <main className='mx-auto my-12 flex min-h-screen w-full flex-col items-center'>
+    <main className='mx-auto mb-12 mt-12 flex min-h-screen w-full flex-col items-center sm:mb-16'>
       <header className='py-4 dark:bg-green-400'>
         <Image src='/banners/ABOUT.svg' width={2560} height={200} alt='about' />
       </header>
-
-      <section className='mx-auto mt-12 flex max-w-5xl border-b border-green-400 px-8 pb-16 xl:max-w-6xl 2xl:mt-24 2xl:max-w-7xl'>
+      <section className='mx-auto mt-12 flex max-w-5xl border-b border-green-400 px-4 pb-16 sm:px-8 xl:max-w-6xl 2xl:mt-24 2xl:max-w-7xl'>
         <article className='prose max-w-5xl text-foreground lg:prose-lg xl:prose-xl 2xl:prose-2xl xl:max-w-6xl 2xl:max-w-7xl'>
-          <h1 className='text-foreground'>
-            Hello, World! My name is <span className='font-bold text-green-400'>Ethan G.</span> and
-            I am a Full-Stack Developer & Designer.
-          </h1>
+          <h2 className='text-foreground'>
+            Greetings! My name is <span className='font-bold text-green-400'>Ethan G. </span>
+            I&apos;m dedicated Full-Stack Developer & Designer based in Orlando, Florida. My
+            expertise lies in crafting innovative web technologies and applications that merge
+            seamless functionality with elegant design.
+          </h2>
           <p>
-            In early 2023, I successfully completed the full-time Full-Stack Coding Boot Camp
-            through the University of Central Florida. Since then, I have taken the CS50 class
-            through Harvard University, built numerous applications, and continued to learn
-            everything I can about development and design! Beyond coding, I enjoy spending time with
-            family, exploring the world, discovering new music, and catching the occasional hockey
-            game.
+            With a foundation rooted in completing a rigorous Full-Stack Coding Boot Camp at the
+            University of Central Florida, I continually expand my skills through advanced
+            coursework, including Harvard University&apos;s CS50. I specialize in leveraging
+            JavaScript libraries and frameworks to bring creative visions to life, ensuring each
+            project is both technically robust and visually engaging.
           </p>
           <p>
-            As I embark on this exciting journey, my focus is on crafting innovative web
-            technologies and applications, fueled by a profound passion for design. I specialize in
-            bringing ideas to life using various JavaScript libraries and frameworks.
+            Beyond coding, I find inspiration in exploring new music, enjoying quality time with
+            family, and finding ways to be out in the world. These diverse interests inform my
+            approach, enhancing my ability to create solutions that resonate.
           </p>
-          <p>Let's get together and build something amazing! 🚀</p>
+          <p>
+            Let&apos;s collaborate and transform your ideas into impactful digital experiences.
+            Together, we can build something extraordinary. 🚀
+          </p>
         </article>
       </section>
-      <section className='mx-auto mt-12 flex w-full max-w-5xl flex-col border-b border-green-400 px-8 pb-16 xl:max-w-6xl 2xl:max-w-7xl'>
+      <section className='mx-auto mt-12 flex w-full max-w-5xl flex-col border-b border-green-400 px-4 pb-16 sm:px-8 xl:max-w-6xl 2xl:max-w-7xl'>
         <div className='prose mx-auto mb-8 text-center lg:prose-lg xl:prose-xl 2xl:prose-2xl'>
           <h3 className='text-foreground'>
             <span className='font-bold text-green-300'>Technologies</span> &{' '}
-            <span className='font-bold text-green-300'>tools</span> in my arsenal:
+            <span className='font-bold text-green-300'>tools</span> <br className='sm:hidden' />
+            in my arsenal:
           </h3>
         </div>
         <div className='mx-auto flex max-w-5xl flex-wrap justify-center gap-8 text-xl lg:text-3xl'>
           <TechIcons />
         </div>
       </section>
-      <section className='hidden max-w-5xl lg:mx-auto lg:mt-12 lg:flex lg:flex-col lg:px-8 xl:max-w-6xl 2xl:max-w-7xl'>
+      <section className='hidden max-w-5xl px-2 lg:mx-auto lg:mt-12 lg:flex lg:flex-col lg:px-8 xl:max-w-6xl 2xl:max-w-7xl'>
         <div className='prose mx-auto mb-8 text-center lg:prose-lg xl:prose-xl 2xl:prose-2xl'>
           <h3 className='text-foreground'>
             <span className='font-bold text-green-300'>Contributions</span> &{' '}

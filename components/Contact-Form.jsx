@@ -31,14 +31,14 @@ export default function ContactForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={handleSubmit(onSubmit)} className='space-y-8 2xl:text-xl'>
+      <form onSubmit={handleSubmit(onSubmit)} className='space-y-8 xl:px-2 xl:text-xl 2xl:text-2xl'>
         <FormField
           control={form.control}
           name='name'
           render={({field}) => (
             <FormItem>
               <FormLabel>Full Name</FormLabel>
-              <FormControl>
+              <FormControl className='border-foreground'>
                 <Input placeholder='Jane Doe' {...field} />
               </FormControl>
               <FormMessage />
@@ -51,7 +51,7 @@ export default function ContactForm() {
           render={({field}) => (
             <FormItem>
               <FormLabel>Email Address</FormLabel>
-              <FormControl>
+              <FormControl className='border-foreground'>
                 <Input placeholder='account@email.com' {...field} />
               </FormControl>
               <FormMessage />
@@ -64,10 +64,10 @@ export default function ContactForm() {
           render={({field}) => (
             <FormItem>
               <FormLabel>Message</FormLabel>
-              <FormControl>
+              <FormControl className='border-foreground'>
                 <div>
                   <textarea
-                    className='w-full rounded border bg-background p-2'
+                    className='w-full rounded border border-foreground bg-background p-2'
                     rows={4}
                     placeholder="I'm listening..."
                     {...field}
@@ -82,7 +82,7 @@ export default function ContactForm() {
           <Button
             variant='outline'
             size='sm'
-            className='w-60 bg-red-400 hover:bg-red-500'
+            className='w-60 bg-red-400 hover:bg-red-500 xl:w-96'
             type='submit'
             disabled={formState.isSubmitting}
           >

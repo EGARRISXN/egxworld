@@ -25,7 +25,7 @@ export default function Home() {
           </figure>
           <div className='mx-auto mt-8 flex flex-col justify-center gap-4 lg:mt-0 2xl:gap-8'>
             <h2 className='text-2xl lg:text-3xl 2xl:text-6xl'>
-              The name is: <span className='font-bold text-yellow-300'>Ethan G.</span>
+              My Name: <span className='font-bold text-yellow-300'>Ethan G.</span>
               <br />
               <br />I am a:
               <span className='font-bold text-blue-300'>
@@ -36,7 +36,11 @@ export default function Home() {
               <SocialIcons />
             </div>
             <div className='flex flex-col gap-4 pt-6 sm:flex-row'>
-              <Button variant='outline' size='sm' className='px-8'>
+              <Button
+                variant='outline'
+                size='sm'
+                className='px-8 dark:bg-slate-800 dark:hover:bg-slate-900'
+              >
                 <Link href='/about' target='_blank' rel='noopener noreferrer'>
                   Learn More
                 </Link>
